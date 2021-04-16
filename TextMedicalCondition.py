@@ -10,6 +10,7 @@ def fetch(text, gender, year_of_birth):
     fs.fetch()
     for symptom in fs.symptomsName:
         if symptom in text:
+            print('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
             SymptomFound = True
             print('aaaaaaaaaaaaaaa')
             symptomMC = str([fs.symptoms[ele] for ele in fs.symptoms if ele == symptom][0])
